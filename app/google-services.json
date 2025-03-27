@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "271590454572",
+    "project_id": "day16databasesaumya",
+    "storage_bucket": "day16databasesaumya.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271590454572:android:f29ef6a80c2caca94e6889",
+        "android_client_info": {
+          "package_name": "com.loukya.day16database"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPiOjdvYnJZA_793dY7qOunhTTlwdljwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

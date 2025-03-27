@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DAY16 Database</string>
+    <string name="welcome_to_signup">Welcome!! to SignUp</string>
+    <string name="enter_your_emailid">Enter your EmailId</string>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_unique_id">Enter Unique Id</string>
+    <string name="s">Enter your Name</string>
+    <string name="enter_your_names">Enter your Name</string>
+    <string name="enter_password">Enter Password</string>
+</resources>

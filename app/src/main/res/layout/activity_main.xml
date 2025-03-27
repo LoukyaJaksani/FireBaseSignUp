@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/mainbackground">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_signup"
+        android:textSize="28sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:textStyle="italic|bold"
+        android:textColor="@android:color/holo_blue_dark"
+        android:id="@+id/title"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/enter_your_names"
+        android:id="@+id/nameet"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/black"
+        >
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/enter_your_emailid"
+        android:id="@+id/emailet"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--Password-->
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/black"
+        app:startIconDrawable="@drawable/baseline_lock_24"
+        >
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/enter_password"
+        app:startIconDrawable="@drawable/baseline_lock_24"
+        android:id="@+id/passwordet"
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@android:color/darker_gray"
+        >
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/enter_unique_id"
+        android:id="@+id/uniqueId"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:id="@+id/signupbtn"/>
+
+
+
+
+</LinearLayout>
